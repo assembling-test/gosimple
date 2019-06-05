@@ -1,4 +1,4 @@
-FROM busybox
+FROM bash:4.4.23
 
 RUN mkdir -p /home/webapp/sample
 ADD main /home/webapp/sample/
