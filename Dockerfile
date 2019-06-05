@@ -1,4 +1,4 @@
-FROM bash:4.4.23
+FROM centos:7
 
 RUN mkdir -p /home/webapp/sample
 ADD main /home/webapp/sample/
