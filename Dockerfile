@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-glibc:latest
+FROM busybox
 
 RUN mkdir -p /home/webapp/sample
 ADD main /home/webapp/sample/
